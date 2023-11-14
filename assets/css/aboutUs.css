@@ -1,0 +1,157 @@
+
+/* Fonts Family */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;400;500;600;700;800;900&display=swap');
+/* font-family: 'Noto Sans JP', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* font-family: 'Work Sans', sans-serif; */
+
+/* --------------------------------------------------------------------------------------------------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+}
+
+:root{
+    --mainColor:rgb(255, 182, 72);
+
+}
+a{
+    text-decoration: none;
+    cursor: pointer !important;
+
+}
+p{
+    font-family: 'Poppins', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans JP', sans-serif     !important;
+}
+ul {
+    list-style-type: none;
+}
+.bg-main-color{
+    background-color: var(--mainColor);
+
+}
+.text-main-color{
+    color: var(--mainColor);
+
+}
+span{
+    font-size: 12px ! important;   
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif ! important;
+    
+
+}
+
+
+
+
+
+
+
+/* start individual-attention section */
+.individual-attention{
+    background-color: #ECF6F2;
+}
+.content-header p:nth-of-type(2){
+    font-size: 15px;
+}
+.individual-attention img{
+    transition: .1s .1s;
+    -webkit-transition: .1s .1s;
+    -moz-transition: .1s .1s;
+    -ms-transition: .1s .1s;
+    -o-transition: .1s .1s;
+}
+.individual-attention img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    opacity: 0.8;
+}
+.imggg,.fa-xmark{
+    cursor: pointer !important;
+}
+
+/* end individual-attention section */
+
+
+
+
+/* start IndividualAttention2 section */
+
+/* end IndividualAttention2 section */
+.IndividualAttention2{
+    background-color: #272D3C;
+}
+.IndividualAttention2 button h3{
+    font-size: 18px !important;
+    font-weight: 700 !important;
+
+}
+.tab-content span{
+    font-size: 15px !important;
+}
+.tab-content .fa-check{
+    color: #FEA9AE;
+
+}
+.IndividualAttention2 .nav-link{
+
+    position: relative;
+}
+
+.IndividualAttention2 .nav-link.active{
+    background-color: white !important;
+    color: black !important;
+
+}
+.IndividualAttention2 .nav-link:hover{
+    background-color: white !important;
+    color: black !important;
+
+}
+.IndividualAttention2 .nav-link::after{
+    position: absolute;
+    content: '';
+    width: 7px;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--mainColor);
+}
+
+
+.IndividualAttention2 .nav-link.active::after{
+
+    height: 100%;
+
+}
+.IndividualAttention2 .nav-link:hover::after {
+    height: 100%;
+
+}
+
+
+
+/* start update section */
+.update{
+    background-image: url(../img/img-aboutus/call-to-action-img-1.png);
+}
+
+/* end update section */
+
+
+
+
